@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="menuToggle">
+        </div>
+        <ul>
+            <li class="list">
+                <a href="file:///C:/Users/chhet/OneDrive/Desktop/Internet%20Technologies/intro.html" target="p2">
+                    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                    <span class="text">Introduction</span>
+                </a><br>
+            </li>
+
+            <li class="list">
+                <a href="file:///C:/Users/chhet/OneDrive/Desktop/Internet%20Technologies/hobbies.html" target="p2">
+                    <span class="icon"><ion-icon name="brush-outline"></ion-icon></span>
+                    <span class="text">Hobbies</span>
+                </a><br>
+            </li>
+
+            <li class="list">
+                <a href="file:///C:/Users/chhet/OneDrive/Desktop/Internet%20Technologies/Plans.html" target="p2">
+                    <span class="icon"><ion-icon name="medal-outline"></ion-icon></span>
+                    <span class="text">Plans</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        
+        const menuToggle=document.querySelector('.menuToggle');
+        const nav=document.querySelector('.nav');
+        menuToggle.onclick = function(){
+            nav.classList.toggle('open')
+        }
+
+    </script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
